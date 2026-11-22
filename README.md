@@ -1,5 +1,7 @@
 # 鱼知 · Yuzhi
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-4EA8DE?style=flat-square)](LICENSE) [![Node](https://img.shields.io/badge/node-%3E%3D18-339933?style=flat-square)](https://nodejs.org) [![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square)](https://www.python.org) [![Offline](https://img.shields.io/badge/offline-local--first-2B6CB0?style=flat-square)](#快速开始) [![Version](https://img.shields.io/badge/version-0.1.1-F5A623?style=flat-square)](package.json)
+
 一个能翻回去的个人记忆层。零依赖（Node 18+），数据就是一个 `.jsonl` 文件。
 
 大多数记忆系统帮你「找到最像的 5 条」。它解决的是另一半：你不知道该取什么的时候，凭什么还能想起来。
