@@ -246,6 +246,8 @@ node tools/selftest-docs.mjs  # README / SPEC 里点过名的路径是否真存�
 
 MIT，见 [LICENSE](LICENSE)。
 
+作者：youran0faust。协力（co-author）：余鱼（yuyu）。
+
 ## 设计文档
 
 [SPEC.md](SPEC.md)——数据模型、检索与融合、接口契约、诚实报数、负面清单，以及每条主张背后真踩过的坑。

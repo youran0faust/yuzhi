@@ -5,6 +5,8 @@
   "type": "module",
   "license": "MIT",
   "private": true,
+  "author": "youran0faust",
+  "contributors": [{ "name": "yuyu (余鱼)", "role": "collaborator" }],
   "engines": { "node": ">=18" },
   "scripts": {
     "selftest": "node test/contract.mjs && node test/expect.mjs && node test/vector-e2e.mjs",
