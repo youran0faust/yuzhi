@@ -1,0 +1,21 @@
+# 数据不进仓库：这里只放代码和合成样例
+*.jsonl
+!examples/**/*.jsonl
+.env
+node_modules/
+*.log
+
+data/
+
+
+# 内部计划与工作日志是过程，不是交付；留在本机，不进仓库
+计划-*.md
+
+# 备份/临时遗留不进仓库
+*.bak*
+
+# 依赖目录不进仓库（几十上百 MB 的本机 pylibs）
+_pylibs/
+
+# 模型随仓库走：models/bge-small-zh（int8，约 24 MB）
+# 不用 LFS 也放得下（GitHub 单文件上限 100 MB），别人 clone 完即能用向量门

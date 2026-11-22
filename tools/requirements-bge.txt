@@ -1,0 +1,11 @@
+# 鱼知 · 本地向量服务（tools/bge-server.py）的 Python 依赖
+# 只在这一条路上需要；本体（src/、test/）是零依赖的 Node，不装这些也能跑。
+#
+# 用法：
+#   python -m pip install -r tools/requirements-bge.txt
+#
+# 装完自检（不起服务，只编码四句）：
+#   python tools/bge-server.py --selftest
+numpy>=1.24
+onnxruntime>=1.16
+tokenizers>=0.15

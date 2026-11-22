@@ -1,0 +1,41 @@
+[
+  {
+    "sample_id": "demo-1",
+    "conversation": {
+      "speaker_a": "作家",
+      "speaker_b": "爱丽丝",
+      "session_1_date_time": "8:30 pm on 3 November, 2026",
+      "session_1": [
+        { "speaker": "作家", "text": "那台旧相机的快门能响了，可计数器不走。", "dia_id": "D1:1" },
+        { "speaker": "爱丽丝", "text": "试拍了一张，底片上烙的日期是 1970 年。", "dia_id": "D1:2" },
+        { "speaker": "作家", "text": "电池一没电，日期就归零，老机器的通病。", "dia_id": "D1:3" },
+        { "speaker": "爱丽丝", "text": "所以照片不是扫进电脑就算归档完，得先过一道手动改日期的工序。", "dia_id": "D1:4" },
+        { "speaker": "作家", "text": "先记着，别在这上面熬。", "dia_id": "D1:5" }
+      ],
+      "session_2_date_time": "10:15 pm on 19 November, 2026",
+      "session_2": [
+        { "speaker": "作家", "text": "今天晚上定一件事：先改日期，别的都往后放。", "dia_id": "D2:1" },
+        { "speaker": "爱丽丝", "text": "行，那我先写批处理那一段，再接按钮。", "dia_id": "D2:2" },
+        { "speaker": "作家", "text": "改完日期要能当场翻出一张来验，不然不算。", "dia_id": "D2:3" },
+        { "speaker": "作家", "text": "今天不熬了，明天再说。", "dia_id": "D2:4" }
+      ],
+      "session_3_date_time": "7:40 am on 21 November, 2026",
+      "session_3": [
+        { "speaker": "爱丽丝", "text": "那个相册项目定名叫「拾光」。", "dia_id": "D3:1" },
+        { "speaker": "作家", "text": "第二档目标定在 60 张，先照着挑。", "dia_id": "D3:2" },
+        { "speaker": "爱丽丝", "text": "那要先做导入和查找两个口，加离线翻看。", "dia_id": "D3:3" },
+        { "speaker": "作家", "text": "数字只当体检，别为它凑。", "dia_id": "D3:4" }
+      ]
+    },
+    "qa": [
+      { "question": "那台旧相机的快门能响，什么不走？", "answer": "计数器", "evidence": ["D1:1"], "category": 4 },
+      { "question": "那个相册项目定名叫什么？", "answer": "拾光", "evidence": ["D3:1"], "category": 4 },
+      { "question": "11月19号晚上定了先做什么？", "answer": "先改日期", "evidence": ["D2:1"], "category": 2 },
+      { "question": "那道工序是要解决什么问题？", "answer": "日期归零，得手动改回来", "evidence": ["D1:3", "D1:4"], "category": 1 },
+      { "question": "照片为什么还不算归档完？", "answer": "日期不对，要过一道手动改日期", "evidence": ["D1:3", "D1:4"], "category": 3 },
+      { "question": "第二档目标定在多少张？", "answer": "60 张", "evidence": ["D3:2"], "category": 4 },
+      { "question": "那天晚上谁说今天不熬了？", "answer": "作家", "evidence": ["D2:4"], "category": 4 },
+      { "question": "改完日期之后要验什么？", "answer": "能当场翻出一张来", "evidence": ["D2:3"], "category": 1 }
+    ]
+  }
+]

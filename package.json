@@ -1,0 +1,18 @@
+{
+  "name": "yuzhi",
+  "version": "0.1.0",
+  "description": "一个能翻回去的个人记忆层：核心不是检索得多准，是没闭合的事不会丢。",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "selftest": "node test/contract.mjs && node test/expect.mjs && node test/vector-e2e.mjs",
+    "contract": "node test/contract.mjs",
+    "expect": "node test/expect.mjs",
+    "vector-e2e": "node test/vector-e2e.mjs",
+    "docs": "node tools/selftest-docs.mjs",
+    "serve": "node src/server.mjs",
+    "cases": "node src/case.mjs list"
+  }
+}
